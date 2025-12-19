@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Server, Code, FileCode, GitBranch, Rocket, Database, Terminal } from 'lucide-react';
+import { useState } from 'react';
+import { Server, Code, GitBranch, Rocket, Database, Terminal } from 'lucide-react';
 
 const SDLCWorkflowSystem = () => {
   const [activeTab, setActiveTab] = useState('overview');
